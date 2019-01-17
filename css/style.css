@@ -1,0 +1,73 @@
+#donut-area1 svg, #donut-area2 svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+body {
+  background-color: #eee;
+}
+
+.navbar {
+  background-color: #444;
+}
+
+.navbar-default {
+    background-color: #444;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+
+#logo {
+  height:36px;
+}
+
+.navbar-brand {
+  height: 65px;
+  padding: 12px 0 0 0;
+}
+
+
+
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #777;
+  stroke-width: 3px;
+}
+  
+.hover-line {
+  stroke: #777;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
